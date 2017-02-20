@@ -1,0 +1,43 @@
+{
+  "name": "bitbar-cli",
+  "version": "0.0.1",
+  "description": "A command line tool for managing your BitBar plugins.",
+  "keywords": [
+    "bitbar",
+    "cli",
+    "command",
+    "line",
+    "macos",
+    "tool",
+    "interface"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/bitbar-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/bitbar-cli/issues"
+  },
+  "homepage": "https://github.com/kodie/bitbar-cli",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "bitbar": "index.js"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^2.9.0",
+    "fs": "0.0.1-security",
+    "fuzzysearch": "^1.0.3",
+    "open": "0.0.5",
+    "ora": "^1.1.0",
+    "osx-defaults": "^1.0.3",
+    "request": "^2.79.0",
+    "sync-request": "^4.0.1"
+  }
+}
