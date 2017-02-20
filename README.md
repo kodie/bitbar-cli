@@ -1,4 +1,4 @@
-# bitbar-cli
+# bitbar-cli [![npm version](https://badge.fury.io/js/bitbar-cli.svg)](https://badge.fury.io/js/bitbar-cli)
 A command line tool for managing your [BitBar](https://github.com/matryer/bitbar) plugins.
 
 ## Installation
